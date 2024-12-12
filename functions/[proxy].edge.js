@@ -2,7 +2,7 @@ import {
   init,
   reset,
   someAsync,
-} from './testSDK';
+} from '../testSDK';
 
 export default async function handler(request) {
   init();
